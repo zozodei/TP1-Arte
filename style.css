@@ -30,7 +30,10 @@ header img{
   
   nav li {
     display: inline-block;
-    margin: 1.5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 0%;
+    margin-bottom: 0%;
   }
   
   nav a {
