@@ -9,7 +9,9 @@
     font-family: Arial, sans-serif;
     color: black;
   }
-header {
+
+  
+  header {
     background-color: rgb(90, 14, 14);
     padding-top: 1%;
     padding-bottom: 1%;
@@ -24,7 +26,6 @@ header img {
 
 nav {
     display: inline-block;
-    vertical-align: middle;
     text-align: center;
     padding: 0%;
     margin-top: 0%;
@@ -37,8 +38,8 @@ nav li {
     display: inline-block;
     margin-top: 0%;
     margin-bottom: 0%;
-    margin-left: 1%; 
-    margin-right: 1%; 
+    margin-left: 0.5%; /* PEQUEÑO */
+    margin-right: 0.5%; /* PEQUEÑO */
 }
 
 nav a {
@@ -47,7 +48,7 @@ nav a {
     font-weight: bold;
     font-family: 'Arial', sans-serif;
     
-    padding: 0.3%; 
+    padding: 0.2%; /* MUY PEQUEÑO para que entren */
     border-radius: 20px;
     background-color: transparent;
     border: 2px solid rgb(212, 175, 55);
