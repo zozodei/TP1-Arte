@@ -38,8 +38,8 @@ nav li {
     display: inline-block;
     margin-top: 0%;
     margin-bottom: 0%;
-    margin-left: 0.5%; /* PEQUEÑO */
-    margin-right: 0.5%; /* PEQUEÑO */
+    margin-left: 0.5%; 
+    margin-right: 0.5%; 
 }
 
 nav a {
@@ -48,7 +48,7 @@ nav a {
     font-weight: bold;
     font-family: 'Arial', sans-serif;
     
-    padding: 0.2%; /* MUY PEQUEÑO para que entren */
+    padding: 0.2%; 
     border-radius: 20px;
     background-color: transparent;
     border: 2px solid rgb(212, 175, 55);
