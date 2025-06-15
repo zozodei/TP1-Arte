@@ -11,53 +11,49 @@
   }
 
   
-  header {
+ 
+   
+header {
     background-color: rgb(90, 14, 14);
     padding-top: 1%;
     padding-bottom: 1%;
     text-align: center;
     clear: both;
-}
+  }
+  
 
-header img {
+header img{
     width: 6%;
     margin-right: 2%;
-}
-
-nav {
+    vertical-align: middle; }
+  
+  nav {
     display: inline-block;
-    text-align: center;
-    padding: 0%;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    margin-left: 0%;
-    margin-right: 0%;
-}
-
-nav li {
+    vertical-align: middle; /*Profe esto lo agregue para poder alinear mejor verticalmente*/
+  }
+  
+  nav li {
     display: inline-block;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    margin-left: 0.5%; 
-    margin-right: 0.5%; 
-}
-
-nav a {
+    margin: 10;
+  }
+  
+  nav a {
     text-decoration: none;
     color: white;
     font-weight: bold;
     font-family: 'Arial', sans-serif;
-    
-    padding: 0.2%; 
+    padding: 8px 16px;
     border-radius: 20px;
     background-color: transparent;
     border: 2px solid rgb(212, 175, 55);
-}
+  }
+  
   
   nav a:hover {
     background-color: rgb(212, 175, 55);
     color: rgb(90, 14, 14);
   } /*Profe esto es algo extra que busque por que queria agregarle un poco mas de estetica al nav :)*/
+  
   
   .InicioIndex {
     background-image: url("Imagenes/FotoInicio.png");
